@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ProjetoFinal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Ano">Ano...</string>
+    <string name="Classe">Classe...</string>
+    <string name="Juri">Juri...</string>
+    <string name="BI">Nº De Bilhete De Identidate...</string>
+    <string name="Messagem">Alguma informaçao adicional aqui...</string>
+    <string name="Enviar_Pedido">Enviar Pedido</string>
+
+    <string name="menu_home">Home</string>
+    <string name="bemvindo">Bem Vindo</string>
+    <string name="menu_gallery">Notas</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="logout">Logout</string>
+    <string name="MessagemInicial">O seguinte aplicativo foi criado com o intuito de facilitar a gestão da situação acadêmica de um estudante, aqui serão disponibilizadas as notas das cadeiras do ano em curso do estudante, assim como o perfil do estudante.
+As credenciais de acesso ao aplicativo do estudante não são possíveis de ser alteradas no próprio aplicativo, mas sim na secretaria  ou agente autorizado para fazer o mesmo.
+Estará também disponibilizado o material para os estudos dos estudantes fornecidos pelos docentes que lecionam as cadeiras em que o estudante esteja matriculado</string>
+    <string name="efectue_uma_nova_requisi_ao">Efectue Uma Nova Requisiçao</string>
+    <string name="fazer_pedido">Fazer Pedido</string>
+    <string name="pedidos_feitos">Pedidos Feitos</string>
+    <string name="notas">Notas</string>
+    <string name="menu_slideshow" />
+    <string name="novo_pedido">Novo Pedido</string>
+    <string name="Notas" />
+</resources>
