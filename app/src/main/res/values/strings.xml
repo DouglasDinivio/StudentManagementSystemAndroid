@@ -12,6 +12,11 @@
     <string name="BI">Nº De Bilhete De Identidate...</string>
     <string name="Messagem">Alguma informaçao adicional aqui...</string>
     <string name="Enviar_Pedido">Enviar Pedido</string>
+    <string name="Nota1">Teste 1</string>
+    <string name="Nota2">Teste 2</string>
+    <string name="NotaTrabalho">Trabalho</string>
+    <string name="Estado">Estado</string>
+    <string name="Media">Media</string>
 
     <string name="menu_home">Home</string>
     <string name="bemvindo">Bem Vindo</string>
@@ -28,4 +33,11 @@ Estará também disponibilizado o material para os estudos dos estudantes fornec
     <string name="menu_slideshow" />
     <string name="novo_pedido">Novo Pedido</string>
     <string name="Notas" />
+    <string name="matematica">Matematica</string>
+    <string name="_10">10</string>
+    <string name="_15">15</string>
+    <string name="_12">12</string>
+    <string name="_120">12</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

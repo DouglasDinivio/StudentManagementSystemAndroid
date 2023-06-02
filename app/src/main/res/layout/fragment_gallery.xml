@@ -8,7 +8,9 @@
     android:clipToPadding="false"
     android:orientation="vertical"
     android:padding="25sp"
-    tools:context=".ui.gallery.GalleryFragment">
+    tools:context=".ui.gallery.GalleryFragment"
+    android:background="#C5CAE9"
+    >
 
     <TextView
         android:id="@+id/textView2"
@@ -34,16 +36,16 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="75dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/Ano"
         android:inputType="number"
         android:minHeight="48dp"
-        android:textSize="14sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/txtBilheteDeIdentidade"
         app:layout_constraintEnd_toStartOf="@+id/txtClasse"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtClasse"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/txtClasse" />
 
     <EditText
         android:id="@+id/txtJuri"
@@ -52,16 +54,16 @@
         android:layout_marginTop="44dp"
         android:layout_marginEnd="36dp"
         android:layout_marginBottom="35dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/Juri"
         android:inputType="number"
         android:minHeight="48dp"
-        android:textSize="14sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/txtBilheteDeIdentidade"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/txtClasse"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
         android:id="@+id/txtClasse"
@@ -76,7 +78,7 @@
         android:hint="@string/Classe"
         android:inputType="number"
         android:minHeight="48dp"
-        android:textSize="14sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/txtBilheteDeIdentidade"
         app:layout_constraintEnd_toStartOf="@+id/txtJuri"
         app:layout_constraintStart_toEndOf="@+id/txtAno"
@@ -89,17 +91,17 @@
         android:layout_marginStart="7dp"
         android:layout_marginEnd="7dp"
         android:layout_marginBottom="40dp"
+        android:autofillHints=""
         android:ems="10"
         android:gravity="start|top"
         android:hint="@string/Messagem"
         android:inputType="textMultiLine"
         android:minHeight="48dp"
-        android:textSize="12sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/btnEnviarPedido"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtBilheteDeIdentidade"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/txtBilheteDeIdentidade" />
 
     <EditText
         android:id="@+id/txtBilheteDeIdentidade"
@@ -108,15 +110,15 @@
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="25dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/BI"
         android:inputType="textPersonName"
-        android:textSize="14sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/txtMessagem"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtJuri"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/txtJuri" />
 
     <Button
         android:id="@+id/btnEnviarPedido"

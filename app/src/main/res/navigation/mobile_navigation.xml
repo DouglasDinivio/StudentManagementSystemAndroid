@@ -23,9 +23,16 @@
         android:label="Pedidos"
         tools:layout="@layout/fragment_slideshow" />
 
-    <fragment
+    <activity
+        android:id="@+id/Logout"
+        android:name="com.example.apmfinal.Login"
+        android:label="Login"
+        tools:layout="@layout/activity_login"
+
+        />
+
+    <activity
         android:id="@+id/notas"
-        android:name="com.example.apmfinal.ui.nnotas.NotasFragment"
-        android:label="@string/Notas"
+        android:name="com.example.apmfinal.ListView"
         tools:layout="@layout/fragment_notas"/>
 </navigation>
